@@ -5,8 +5,7 @@
   Learning Typescript Gama
 </h1>
 <h4 align="center">Aprendendo Typescript com aulas do bootcamp da Gama Academy!</h4>
-<p align="center"><a align="center" target="_blank" href="https://gama.academy/"><img style="background-size: cover; width: 50px;
-height: 50px;" src="https://i.picasion.com/pic90/75a6b894f6d4b9edcc121e3abdf8cbb4.gif" alt="Recent Commits to Bear Stone Smart Home" style="border:0"></a></p>
+<p align="center"><a align="center" target="_blank" href="https://gama.academy/"><img height="50" width="50" src="https://i.picasion.com/pic90/75a6b894f6d4b9edcc121e3abdf8cbb4.gif" alt="Recent Commits to Bear Stone Smart Home" style="border:0"></a></p>
 <div align="center">
   <h4>
     <a href="https://travis-ci.org/CCOSTAN/Home-AssistantConfig"><img src="https://travis-ci.org/CCOSTAN/Home-AssistantConfig.svg?branch=master"/></a>
@@ -18,10 +17,8 @@ height: 50px;" src="https://i.picasion.com/pic90/75a6b894f6d4b9edcc121e3abdf8cbb
  O que é o <strong>Typescript</strong>, surgiu a partir do <strong>Javascript</strong> que é uma liguagem robusta que possui funções contrutoras, tipagem dinâmica, prototypes e possui várias especificações com ES6 e o ES7. Quando usamos as novas implementações providas pelas novas especificações do Javascript, elas não são suportadas nos navegadores mais antigos. O Typescript é um superset do Javascript que é o agrupamento de adicionais que dar a possibilidade de trabalhar com  tipagem estática, interfaces, enums, decorators, generics, dando controle sobre o código, escrevemos o código em Typescript que é transpilado para Javascript.
 </p>
 <span>
-<img style="background-size: cover; width: 350px;
-height: 250px;" src="https://miro.medium.com/max/606/1*UIioHehyD5o_6ydf3w2fuw.png" />
-<img style="background-size: cover; width: 250px;
-height: 250px;" src="https://qph.fs.quoracdn.net/main-qimg-1bb226be271cbb969e55513384f2401d.webp">
+<img height="250" width="350" src="https://miro.medium.com/max/606/1*UIioHehyD5o_6ydf3w2fuw.png" />
+<img height="250" width="250" src="https://qph.fs.quoracdn.net/main-qimg-1bb226be271cbb969e55513384f2401d.webp">
 </span>
 <div align="center"><a name="menu"></a>
   <h4>
