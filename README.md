@@ -78,10 +78,10 @@ Site : [typescriptlang.org](https://www.typescriptlang.org/)
 
 ### <span id="interfaces">Interfaces</span>
 - Exemplo de interface do Typescript:
-[tipos.ts](./typescript/interfaces.ts)
+[interfaces.ts](./typescript/interfaces.ts)
 
 ### <span id="classes">Classes</span>
 - Exemplos de classes, modificadores de acesso e herança do Typescript:
-[tipos.ts](./typescript/interfaces.ts)
+[classes.ts](./typescript/interfaces.ts)
 
 >Target do Typscript: Quando compilamos criamos um javascript que pode ser em diversas versões e para configurar a versão desejada devemos alterar no arquivo tsconfig.json, isso serve para termos o javascript que funciona ou não em determinados browsers, a versão es5 normalmente funciona nos browsers mais antigos ja o do es6 para frente nos mais novos.
