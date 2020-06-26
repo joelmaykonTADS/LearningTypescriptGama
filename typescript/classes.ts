@@ -52,9 +52,9 @@ class Car {
     private alterVelocity(acc: number) {
         if (this.velocity + acc <= this.velocityMax) {
             this.velocity += acc;
-            console.log(`Velocity actual ${this.velocity}`)
+            console.log(`Velocity actual of ${this.model} : ${this.velocity}`)
         } else {
-            console.log(`Velocity max ${this.velocity}`)
+            console.log(`Velocity max of ${this.model} : ${this.velocity}`)
         }
     }
     accelerate() {
@@ -71,3 +71,28 @@ car.accelerate();
 car.accelerate();
 car.accelerate();
 
+
+class Camaro extends Car{
+    private turbo = false;
+    constructor() {
+        super('Camaro', 50); 
+    }
+    onTurbo() {
+        this.turbo = true;
+        console.log(`Turbo on`);
+    }
+}
+
+const camaro = new Camaro();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();

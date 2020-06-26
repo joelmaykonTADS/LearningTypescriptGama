@@ -1,4 +1,17 @@
 "use strict";
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 //Public attributes
 var DateType = /** @class */ (function () {
     function DateType(day, month, year) {
@@ -42,10 +55,10 @@ var Car = /** @class */ (function () {
     Car.prototype.alterVelocity = function (acc) {
         if (this.velocity + acc <= this.velocityMax) {
             this.velocity += acc;
-            console.log("Velocity actual " + this.velocity);
+            console.log("Velocity actual of " + this.model + " : " + this.velocity);
         }
         else {
-            console.log("Velocity max " + this.velocity);
+            console.log("Velocity max of " + this.model + " : " + this.velocity);
         }
     };
     Car.prototype.accelerate = function () {
@@ -61,3 +74,23 @@ car.accelerate();
 car.accelerate();
 car.accelerate();
 car.accelerate();
+var Camaro = /** @class */ (function (_super) {
+    __extends(Camaro, _super);
+    function Camaro() {
+        return _super.call(this, 'Camaro', 50) || this;
+    }
+    return Camaro;
+}(Car));
+var camaro = new Camaro();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
+camaro.accelerate();
